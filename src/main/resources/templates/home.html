@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>EVENTOS GFT</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<link rel="icon" href="/image/favicon.png" />
+
+	<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+
+	<link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="btn btn-dark navbar-toggle pull-left">
+						<i class="oi oi-menu"></i>
+					</button>
+					<a class="navbar-brand " href="#">EVENTOS GFT</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="layout-main">	
+	
+		<aside>
+			<nav class="sidebar sidebar-open">
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a class="nav-link " href="/"> <i
+							class="oi oi-home"></i> <span>Home</span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active" >Participantes</span></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/participantes/grupo"> <i class="oi oi-spreadsheet"></i>
+							<span>Grupo </span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/participantes/listar"> <i class="oi oi-spreadsheet"></i>
+							<span>Ranking </span>
+					</a></li>
+					
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active">Administrador</span></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/administradors/cadastrar"> <i class="oi oi-plus"></i> <span>Cadastrar </span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/administradors/listar"> <i 
+						class="oi oi-spreadsheet"></i> <span>Listar </span>
+					</a></li>
+				</ul>
+			</nav>
+		</aside>
+			
+	<section class="layout-content">
+	
+		<nav class="navbar navbar-expand-md bg-light">
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<i class="oi oi-caret-right"></i>
+						<span>Home</span>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div id="list-home" class="row">
+				<div class="col-4">
+					<div class="list-group" id="list-tab" role="tablist">
+						<a class="list-group-item list-group-item-action active"
+							id="list-spring-boot-list" data-toggle="list" href="#spring-boot"
+							role="tab" aria-controls="spring-boot">EVENTO: Spring Boot MVC</a> <a
+							class="list-group-item list-group-item-action" id="list-sts-list"
+							data-toggle="list" href="#sts" role="tab" aria-controls="sts">EVENTO: TDD
+							</a> <a class="list-group-item list-group-item-action"
+							id="list-thymeleaf-list" data-toggle="list" href="#thymeleaf"
+							role="tab" aria-controls="thymeleaf">EVENTO: Thymeleaf</a> <a
+							class="list-group-item list-group-item-action"
+							id="list-webjars-list" data-toggle="list" href="#webjars"
+							role="tab" aria-controls="webjars">EVENTO: POO</a> 
+					</div>
+				</div>
+				<div class="col-8">
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="spring-boot"
+							role="tabpanel" aria-labelledby="list-spring-boot-list">
+							<a href="https://projects.spring.io/spring-boot/">Spring Boot MVC</a>
+							 É uma estrutura da web baseada em Model View e 
+							Controller amplamente usada para desenvolver aplicações web. 
+							Spring Boot é construído sobre a estrutura convencional do Spring, 
+							amplamente usada para desenvolver APIs REST.<br>
+							Carga horária: 20 horas 
+						</div>
+						<div class="tab-pane fade" id="sts" role="tabpanel"
+							aria-labelledby="list-sts-list">
+							 <a href="https://spring.io/tools">TDD</a> 
+							significa Test Driven Development (ou Desenvolvimento Orientado 
+							a Testes). Basicamente, ela ajuda a aumentar a produtividade a 
+							partir de testes já consolidados.<br>
+							Carga horária: 15 horas
+							
+						</div>
+						<div class="tab-pane fade" id="thymeleaf" role="tabpanel"
+							aria-labelledby="list-thymeleaf-list">
+							<a href="http://www.thymeleaf.org/">Thymeleaf</a> É um template 
+							engine para projetos Java que facilita a criação de páginas HTML.
+							 Sendo assim, ele serve para gerar páginas HTML no lado servidor 
+							 de forma dinâmica, permitindo a troca de informações entre o código 
+							 Java e as página HTML, de tal maneira ele garante que o desenvolvedor 
+							 consiga criar templates de forma mais fácil para suas aplicações..<br>
+							Carga horária: 6 horas
+
+						</div>
+						<div class="tab-pane fade" id="webjars" role="tabpanel"
+							aria-labelledby="list-webjars-list">
+							<a href="https://www.webjars.org/">POO</a> A Programação Orientada a 
+							Objetos conhecida como POO, é onde o desenvolvedor tem de começar a 
+							pensar fora da caixa, a imaginar uma forma aonde será preciso recorrer 
+							ao mundo real para o desenvolvimento das aplicações, pois hoje toda a 
+							programação em Java é orientada a objetos..<br>
+							Carga horária: 20 horas
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>		
+
+	<script src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/webjars/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+	<script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	    
+		$(function() {
+			$('[data-toggle="popover"]').popover();
+		});
+		
+		$(document).ready(function(){
+		    $(".navbar-toggle").click(function(){
+		        $(".sidebar").toggleClass("sidebar-open");
+		    })
+		});
+
+	</script>
+</body>
+</html>
+
